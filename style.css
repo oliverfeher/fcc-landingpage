@@ -1,0 +1,44 @@
+html {
+    background-color: black;
+}
+.opening-page {
+    margin-top: 3%;
+    height: 45vw;
+    width: 100%;
+    background-image: url("https://i.pinimg.com/originals/db/57/8e/db578e97998d099f6a2e38de0e4bfee0.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+.title {
+    color: white;
+}
+#nav-bar {
+    z-index: 1;
+    background-color: black;
+    opacity: 0.8;
+    width: 100%;
+    position: fixed;
+}
+ul {
+    margin: auto;
+    padding: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#nav-link {
+    border: 1px solid; 
+    list-style-type: none;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    width: 7vw;
+    text-align: center;
+
+}
+#nav-link:hover {
+    background-color: brown;
+    transform: scale(1.1);
+}
