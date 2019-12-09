@@ -15,9 +15,9 @@
                     <li id="logo-letters">Ride 4 Life</li>
                     <img src="images\bicycle.svg">
                     <a href="#opening-page" id="nav-link"><li>Home</li></a>
-                    <a href="#form-container" id="nav-link"><li>Sign-up!</li></a>
-                    <a href="#about-content" id="nav-link"><li>About</li></a>
                     <a href="#full-video-section" id="nav-link"><li>Video</li></a>
+                    <a href="#main-content" id="nav-link"><li>Sign-up!</li></a>
+                    <a href="#footer" id="nav-link"><li>About</li></a>
                 </ul>
             </nav>
             <img id="header-img">
@@ -36,12 +36,28 @@
     <div id="main-content">
         <div id="form-container">
             <form id="form">
+                <label>Enter your name</label>
                 <input id="name" type="text" placeholder="Enter your name..">
+                <label>E-mail address</label>
                 <input id="email" type="email" placeholder="Enter your e-mail address..">
+                <label>Country/City</label>
                 <input id="location" type="text" placeholder="Country/City..">
+                <label>Your age</label>
                 <input id="age" type="number" placeholder="Enter your age..">
+                <label>A little bit about yourself</label>
+                <textarea id="details" rows="5" cols="51" placeholder="Details about yourself.."></textarea>
                 <input id="submit" type="submit" value="Sign up!">
             </form>
+        </div>
+        <div id="benefits">
+            <img src="/images/chat.svg">
+            <img src="/images/trophy.svg">
+            <img src="/images/worldwide.svg">
+        </div>
+        <div id="benefits-description">
+            <p>Follow, share, like, all interactive with fellow riders.</p>
+            <p>Challange yourself everyday, race with friends, attend tournaments</p>
+            <p>You can sign-up anywhere from the world, completley online racing platform</p>
         </div>
     </div>
 
@@ -49,12 +65,12 @@
         
     </div>
 
-    <footer>
+    <footer id="footer">
             <ul>
-                <a><li></li></a>
-                <a><li></li></a>
-                <a><li></li></a>
-                <a><li></li></a>
+                <a class="footer-margin"><li>Created by: Oliver Feher 2019</li></a>
+                <a class="footer-margin blur"><li>Twitter</li></a>
+                <a class="footer-margin blur"><li>LinkedIn</li></a>
+                <a class="footer-margin blur"><li>GitHub</li></a>
             </ul>
     </footer>
 </body>

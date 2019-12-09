@@ -3,6 +3,7 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: 'Orbitron', sans-serif;
+    height: 100%;
 
 }
 #opening-page {
@@ -99,16 +100,16 @@ html, body {
         background-color: brown;
     }
     #main-content {
-        height: 48vw;
+        height: 44vw;
         width: 100%;
         border-top: 5px black solid;
         background-color: black;
+        
     }
     #form {
         display: flex;
         flex-direction: column;
         align-items: center;
-        
     }
 
     input {
@@ -116,8 +117,12 @@ html, body {
         padding: 10px;
         width: 80%;
         margin-top: 1%;
-        border: #8E0E00 1px solid;
-        border-radius: 15px;
+        border: black 1px solid;
+    }
+    #details {
+        text-align: center;
+        margin-top: 1%;
+        border: 1px black solid;
     }
     #submit {
         width: 84.3%;
@@ -125,13 +130,16 @@ html, body {
     }
     #form-container {
         width: 30%;
-        padding: 10px;
-        background: #8E0E00;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to top, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to top, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-        border: 5px solid grey;
-        border-radius: 20px;
+        padding: 70px 50px;
+        background-image: url("https://wallpaperaccess.com/full/1222907.jpg");
+        background-size: cover;
+        border-radius: 3px;
+        position: absolute;
+        left: 60%;
+        margin-top: 8%;
+    }
+    #form label {
+        margin-top: 5px;
     }
 
     #full-video-section {
@@ -139,10 +147,48 @@ html, body {
     }
     iframe {
         width: 100%;
-        height: 50vw;
+        height: 43vw;
         border: none;
     }
+    #benefits {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: absolute;
+        left: 5%;
+        margin-top: 5%;
+    }
+    #benefits img {
+        height: 12vh;
+        margin-top: 10vh;
+    }
 
+    #benefits-description {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        margin-top: 9vh;
+        left: 30vh;
+    }
+    #benefits-description p {
+        margin-top: 17vh;
+        font-size: 15px;
+    }
+    footer ul {
+        margin-top: ;
+        color: white;
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+    }
+    .footer-margin {
+        margin-left: 5vh;
+        margin-bottom: 2vh;
+    }
+    textarea {
+        width: 82.7%;
+    }
 
   @-webkit-keyframes focus-in-expand {
     0% {
@@ -171,3 +217,7 @@ html, body {
     }
   }
   
+  .blur:hover {
+      filter: blur(1px);
+      cursor: pointer;
+  }
