@@ -147,6 +147,9 @@ html, body {
         height: 43vw;
         border: none;
     }
+    .benefits-container {
+        display: flex;
+    }
     #benefits {
         display: flex;
         flex-direction: column;
