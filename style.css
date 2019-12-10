@@ -103,7 +103,10 @@ html, body {
         width: 100%;
         border-top: 5px black solid;
         background-color: black;
-        
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+        margin-top: 10%;
     }
     #form {
         display: flex;
@@ -132,6 +135,9 @@ html, body {
         background-image: url("https://wallpaperaccess.com/full/1222907.jpg");
         background-size: cover;
         border-radius: 3px;
+        display: flex;
+        justify-content: flex-end;
+        margin-left: 20%;
     }
     #form label {
         margin-top: 5px;
@@ -141,12 +147,14 @@ html, body {
         border-top: 5px black solid;
     }
     iframe {
+        margin-top: 5%;
         width: 100%;
         height: 43vw;
         border: none;
     }
     .benefits-container {
         display: flex;
+        
     }
     .benefits-item {
         color: white;
@@ -154,13 +162,14 @@ html, body {
         display: flex;
         align-items: center;
         padding: 10px;
+        margin-top: 5%;
     }
     #benefits img {
         height: 12vh;
         margin-right: 8px;
     }
     footer ul {
-        margin-top: ;
+        margin-top: 5%;
         color: white;
         display: flex;
         justify-content: center;
