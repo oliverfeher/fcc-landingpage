@@ -132,7 +132,6 @@ html, body {
         background-image: url("https://wallpaperaccess.com/full/1222907.jpg");
         background-size: cover;
         border-radius: 3px;
-        margin-top: 8%;
     }
     #form label {
         margin-top: 5px;
@@ -206,3 +205,10 @@ html, body {
       filter: blur(1px);
       cursor: pointer;
   }
+
+
+@media (min-width: 500px) {
+    #main-content {
+        display: flex;
+    }
+}
