@@ -100,7 +100,6 @@ html, body {
         background-color: brown;
     }
     #main-content {
-        height: 44vw;
         width: 100%;
         border-top: 5px black solid;
         background-color: black;
@@ -129,14 +128,10 @@ html, body {
         background-color: greenyellow;
     }
     #form-container {
-        width: 30%;
         padding: 70px 50px;
         background-image: url("https://wallpaperaccess.com/full/1222907.jpg");
         background-size: cover;
         border-radius: 3px;
-        position: absolute;
-        left: 60%;
-        margin-top: 8%;
     }
     #form label {
         margin-top: 5px;
@@ -150,30 +145,19 @@ html, body {
         height: 43vw;
         border: none;
     }
-    #benefits {
+    .benefits-container {
         display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        position: absolute;
-        left: 5%;
-        margin-top: 5%;
+    }
+    .benefits-item {
+        color: white;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        padding: 10px;
     }
     #benefits img {
         height: 12vh;
-        margin-top: 10vh;
-    }
-
-    #benefits-description {
-        color: white;
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        margin-top: 9vh;
-        left: 30vh;
-    }
-    #benefits-description p {
-        margin-top: 17vh;
-        font-size: 15px;
+        margin-right: 8px;
     }
     footer ul {
         margin-top: ;
@@ -221,3 +205,10 @@ html, body {
       filter: blur(1px);
       cursor: pointer;
   }
+
+
+@media (min-width: 500px) {
+    #main-content {
+        display: flex;
+    }
+}
