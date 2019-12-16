@@ -150,4 +150,11 @@ textarea {
     #logo-letters {
         display: none;
     }
+    #form-container {
+        margin: 0 auto;
+        width: 70%;
+    }
+    #created {
+        display: none;
+    }
 }
