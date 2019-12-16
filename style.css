@@ -15,32 +15,6 @@ html, body {
     background-repeat: no-repeat;
     display: flex;
 }
-#smartphone {
-    justify-content: center;
-    position: relative;
-    top: 10%;
-    left: 10%;
-    width: 30%;
-    height: 80%;
-}
-#bicycle {
-    justify-content: center;
-    position: relative;
-    height: 10%;
-    top: 35%;
-    left: -14.5%;
-    width: 20%;
-    height: 15%;
-}
-#main-title {
-    top: 50%;
-    height: 30%;
-    position: relative;
-    left: -31%;
-    width: 30%;
-    font-size: 1vw;
-    color: white;
-}
 
 #nav-bar {
     margin: 0 auto;
@@ -69,7 +43,7 @@ html, body {
     width: 100%;
     margin-top: 5%;
     background-color: black;
-    justify-content: flex-end;
+    justify-content: center;
     flex-direction: row-reverse;
 }
 #form {
@@ -139,6 +113,7 @@ iframe {
     margin-right: 10%;
 }
 footer ul {
+    padding: 0;
     color: white;
     display: flex;
     justify-content: center;
@@ -167,20 +142,25 @@ textarea {
         justify-content: center;
         width: 100%;
     }
-    ul {
-        padding: 0;
-    }
-    ul img {
-        display: none;
+    #footer ul {
+        margin-top: 10%;
     }
     #logo-letters {
         display: none;
     }
     #form-container {
         margin: 0 auto;
-        width: 70%;
+        width: 80%;
+        margin-right: 0;
     }
     #created {
         display: none;
+    }
+    #smartphone {
+        
+    }
+    .benefits-item {
+        margin-left: 2%;
+        margin-right: 2%;
     }
 }
