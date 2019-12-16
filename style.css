@@ -55,116 +55,84 @@ html, body {
     align-items: center;
 }
 
-    input {
-        text-align: center;
-        padding: 10px;
-        width: 80%;
-        margin-top: 1%;
-        border: black 1px solid;
-    }
-    #details {
-        text-align: center;
-        margin-top: 1%;
-        border: 1px black solid;
-    }
-    #submit {
-        width: 84.3%;
-        background-color: greenyellow;
-    }
-    #form-container {
-        padding: 70px 50px;
-        background-image: url("https://wallpaperaccess.com/full/1222907.jpg");
-        background-size: cover;
-        border-radius: 3px;
-        display: flex;
-        margin-left: 20%;
-    }
-    #form label {
-        margin-top: 5px;
-    }
+input {
+    text-align: center;
+    padding: 10px;
+    width: 80%;
+    margin-top: 1%;
+    border: black 1px solid;
+}
+#details {
+    text-align: center;
+    margin-top: 1%;
+    border: 1px black solid;
+}
+#submit {
+    width: 84.3%;
+    background-color: greenyellow;
+}
+#form-container {
+    padding: 70px 50px;
+    background-image: url("https://wallpaperaccess.com/full/1222907.jpg");
+    background-size: cover;
+    border-radius: 3px;
+    display: flex;
+    margin-left: 20%;
+}
+#form label {
+    margin-top: 5px;
+}
 
-    #full-video-section {
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        height: 100%;
-        
+#full-video-section {
+    background-image: url("https://images.unsplash.com/photo-1534787238916-9ba6764efd4f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;    
     }
-    iframe {
-        box-shadow: 0px 0px 20px 5px #D8D8D8;
-        width: 50%;
-        height: 50%;
-        top: 0;
-        left: 0;
-        
-    }
-  
-    .benefits-container {
-        display: flex;
-        align-items: center;
-    }
-    .benefits-item {
-        color: white;
-        font-size: 15px;
-        display: flex;
-        align-items: center;
-        padding: 10px;
-        margin-top: 5%;
-        margin-left: 10%;
-    }
-    #benefits img {
-        height: 12vh;
-        margin-right: 10%;
-    }
-
-    footer ul {
-        color: white;
-        display: flex;
-        justify-content: center;
-        list-style-type: none;
-        margin-top: 5%;
-        margin-bottom: 1;
-    }
-    .footer-item {
-        margin-left: 5%;
-    }
-    textarea {
-        width: 82.7%;
-    }
-
-  @-webkit-keyframes focus-in-expand {
-    0% {
-      letter-spacing: -0.5em;
-      -webkit-filter: blur(12px);
-              filter: blur(12px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-filter: blur(0px);
-              filter: blur(0px);
-      opacity: 1;
-    }
-  }
-  @keyframes focus-in-expand {
-    0% {
-      letter-spacing: -0.5em;
-      -webkit-filter: blur(12px);
-              filter: blur(12px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-filter: blur(0px);
-              filter: blur(0px);
-      opacity: 1;
-    }
-  }
-  
-  .blur:hover {
-      filter: blur(1px);
-      cursor: pointer;
-  }
-
-
+iframe {
+    box-shadow: 0px 0px 20px 5px #D8D8D8;
+    width: 50%;
+    height: 50%;
+    top: 0;
+    left: 0;   
+}
+.benefits-container {
+    display: flex;
+    align-items: center;
+}
+.benefits-item {
+    color: white;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+#benefits img {
+    height: 12vh;
+    margin-right: 10%;
+}
+footer ul {
+    color: white;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 5%;
+    margin-bottom: 1;
+}
+.footer-item {
+    margin-left: 5%;
+}
+textarea {
+    width: 82.7%;
+}
+.blur:hover {
+    filter: blur(1px);
+    cursor: pointer;
+}
 @media (min-width: 500px) {
     #main-content {
         display: flex;
