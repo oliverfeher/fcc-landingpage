@@ -13,10 +13,9 @@ html, body {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    display: flex;
 }
 
-#nav-bar {
+#actual-nav {
     margin: 0 auto;
     background-color: black;
     width: 100%;
@@ -27,18 +26,37 @@ html, body {
     padding-inline-start: 0px;
     z-index: 1;
 }
+#nav-bar img {
+    z-index: 2;
+    position: fixed;
+}
+#title-text {
+    justify-content:fle;
+    color: white;
+    z-index: 2;
+    position: fixed;
+    font-size: 1em;
+}
+#nav-bar {
+    display: grid
+}
 
-#nav-link {
+
+.nav-link {
     text-decoration: none;
     list-style: none;
     color: white;
     padding: 20px;
 }
-#nav-link:hover {
+.nav-link:hover {
     background-color: brown;
-
 }
-
+#header-img {
+    display: none;
+}
+header {
+    position: fixed;
+}
 #main-content {
     width: 100%;
     margin-top: 5%;
@@ -155,11 +173,12 @@ textarea {
     #created {
         display: none;
     }
-    #smartphone {
-        
+    .logo {
+        display: none;
     }
     .benefits-item {
         margin-left: 2%;
         margin-right: 2%;
     }
 }
+

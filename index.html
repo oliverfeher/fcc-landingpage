@@ -10,38 +10,41 @@
 </head>
 <body>
         <header id="header">
-            <nav>
-                <ul id="nav-bar">
-                    <a href="#opening-page" id="nav-link"><li>Home</li></a>
-                    <a href="#full-video-section" id="nav-link"><li>Video</li></a>
-                    <a href="#main-content" id="nav-link"><li>Sign-up!</li></a>
-                    <a href="#footer" id="nav-link"><li>About</li></a>
+            <nav id="nav-bar">
+                <img id="header-img" src="https://image.flaticon.com/icons/png/512/1576/1576032.png">
+                <ul id="actual-nav">
+                    <a href="#opening-page" class="nav-link"><li>Home</li></a>
+                    <a href="#full-video-section" class="nav-link"><li>Video</li></a>
+                    <a href="#main-content" class="nav-link"><li>Sign-up!</li></a>
+                    <a href="#footer" class="nav-link"><li>About</li></a>
                 </ul>
             </nav>
         </header>
 
         <div id="opening-page">
+            <div id="title-container">
+            </div>
         </div>
 
         <div id="full-video-section">
-            <iframe class="videoContainer__video" width="1280px" height="1920px" src="https://www.youtube.com/embed/-uM2uvyQoQU" frameborder="0"></iframe>
+            <iframe id="video" class="videoContainer__video" width="1280px" height="1920px" src="https://www.youtube.com/embed/-uM2uvyQoQU" frameborder="0"></iframe>
         </div>
         
 
 
     <div id="main-content">
         <div id="form-container">
-            <form id="form">
+            <form action="http://www.freecodecamp.com/email-submit" id="form">
                 <label>Enter your name</label>
-                <input id="name" type="text" placeholder="Enter your name..">
+                <input id="name" name="email" type="text" placeholder="Enter your name..">
                 <label>E-mail address</label>
-                <input id="email" type="email" placeholder="Enter your e-mail address..">
+                <input id="email" name="email" type="email" placeholder="Enter your e-mail address..">
                 <label>Country/City</label>
-                <input id="location" type="text" placeholder="Country/City..">
+                <input id="location" name="email" type="text" placeholder="Country/City..">
                 <label>Your age</label>
-                <input id="age" type="number" placeholder="Enter your age..">
+                <input id="age" name="email" type="number" placeholder="Enter your age..">
                 <label>A little bit about yourself</label>
-                <textarea id="details" rows="5" cols="51" placeholder="Details about yourself.."></textarea>
+                <textarea id="details" name="email" rows="5" cols="51" placeholder="Details about yourself.."></textarea>
                 <input id="submit" type="submit" value="Sign up!">
             </form>
         </div>
@@ -49,15 +52,16 @@
         <div class="benefits-container">
             <div id="benefits">
                 <div class="benefits-item">
-                    <img src="images/chat.svg">
+                    <img src="https://image.flaticon.com/icons/png/512/457/457397.png">
                     <p>Follow, share, like, all interactive with fellow riders.</p>
                 </div>
                 <div class="benefits-item">
-                    <img src="images/trophy.svg">
+                    <img src="https://image.flaticon.com/icons/png/512/321/321773.png">
+                  
                     <p>Challange yourself everyday, race with friends, attend tournaments</p>
                 </div>
                 <div class="benefits-item">
-                    <img src="images/worldwide.svg">
+                    <img src="https://image.flaticon.com/icons/png/512/2380/2380150.png">
                     <p>You can sign-up anywhere from the world, completley online racing platform</p>
                 </div>
             </div>
@@ -73,4 +77,3 @@
             </ul>
     </footer>
 </body>
-</html>
